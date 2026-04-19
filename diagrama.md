@@ -1,3 +1,4 @@
+```mermaid
 ---
 config:
   layout: elk
@@ -84,6 +85,7 @@ classDiagram
     MenuItem <|-- Appetizer
     Beverage <|-- Juice
     Beverage <|-- Soda
+```
     Beverage <|-- Coffee
     Order "1" --> "*" MenuItem
     Order ..> RestaurantMenu
