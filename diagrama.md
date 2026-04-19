@@ -85,9 +85,9 @@ classDiagram
     MenuItem <|-- Appetizer
     Beverage <|-- Juice
     Beverage <|-- Soda
-```
     Beverage <|-- Coffee
     Order "1" --> "*" MenuItem
     Order ..> RestaurantMenu
     RestaurantMenu "1" *-- "*" MenuItem
     MainCourse "1" *-- "0..2" MenuItem
+```
